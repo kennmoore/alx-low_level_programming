@@ -5,7 +5,8 @@
 
 /**
  * main - makes comparision and prints randomly
- * Always Return 0
+ *
+ * * Always Return 0
  */
 int main(void)
 {
