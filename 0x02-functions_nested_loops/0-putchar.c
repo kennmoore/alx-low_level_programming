@@ -1,6 +1,3 @@
-
-char _putchar(char c);
-
 /**
  * main - Entry point
  *
