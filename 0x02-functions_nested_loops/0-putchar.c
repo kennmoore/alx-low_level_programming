@@ -1,18 +1,17 @@
+#include main.h"
 /**
- * main - Entry point
- *
- * Return: Always Return 0
+ * main - prints the string "Keneth" from a character array.
+ * Return: 0 on success.
  */
 int main(void)
 {
-	char *sh = "Kenneth";
+	char c[] = "Kenneth";
+	int i;
 
-	while (*sh)
+	for (i = 0; i < 7; i++)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(c[i]);
 	}
 	_putchar('\n');
-
 	return (0);
 }
