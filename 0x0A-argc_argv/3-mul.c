@@ -6,7 +6,7 @@
  * main - Program that multiplies two integer arguments and prints their product
  * @argc: Number of command line arguments
  * @argv: Array name
- * Return: 1 if not enough arguments passed in, else return error
+ * Return: 1 if not enough arguments passed in, 0 otherwise
  */
 
 int main(int argc, char *argv[])
